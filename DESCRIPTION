@@ -1,6 +1,6 @@
 Package: chms
 Title: Accelerometer Processing Methods for Cycle 7 of the CHMS
-Version: 7.1
+Version: 7.2
 Authors@R: c(
     person("Joel", "Barnes", , "joel.barnes@statcan.gc.ca", role = c("aut", "cre")),
     person("Janine", "Clarke", , "janine.clarke@statcan.gc.ca", role = "ctb"),
@@ -20,15 +20,15 @@ License: MIT + file LICENSE
 URL: https://github.com/statcan/chms
 BugReports: https://github.com/statcan/chms/issues
 Depends: R (>= 4.1.0)
+Config/roxygen2/version: 8.1.0
 Encoding: UTF-8
-RoxygenNote: 7.3.2
 Imports: cli, DBI, dbplyr, dplyr, haven, hms, jsonlite, knitr,
-        lubridate, mirai, mori, parallelly, purrr, R6, readr, rlang,
-        RSQLite, stats, stringr, tidyr, utils, zoo
+        lubridate, mirai, parallelly, purrr, R6, readr, rlang, RSQLite,
+        stats, stringr, tidyr, utils, zoo
 Suggests: config, ggplot2, janitor, kableExtra, PhysicalActivity,
         quarto, scales, testthat, tibble
 NeedsCompilation: no
-Packaged: 2026-08-25 23:45:32 UTC; barnjoe
+Packaged: 2026-10-17 14:07:51 UTC; barnjoe
 Author: Joel Barnes [aut, cre],
   Janine Clarke [ctb],
   Rachel Colley [ctb],
@@ -36,4 +36,4 @@ Author: Joel Barnes [aut, cre],
     Canada [cph]
 Maintainer: Joel Barnes <joel.barnes@statcan.gc.ca>
 Repository: CRAN
-Date/Publication: 2026-09-08 13:30:15 UTC
+Date/Publication: 2026-10-17 14:30:02 UTC
